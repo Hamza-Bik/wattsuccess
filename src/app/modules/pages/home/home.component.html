@@ -1,4 +1,4 @@
-<div class="mx-auto h-full">
+<div class="mx-auto h-full w-full">
   <div class="">
     <div class="bg-slate-200 w-full " style="height:504px;">
       <div class="w-full mx-auto" style="height:504px;">
@@ -15,22 +15,23 @@
           <img src="assets/svg/icon-log.svg" alt="" style="width:55px ;">
         </div>
         <div class="flex justify-center items-center rounded-full w-24 h-24 bg-[#965F9E] mr-12">
-          <img src="../../../../assets/svg/faculty.svg" alt="" style="width:55px ;">
+          <img src="assets/svg/faculty.svg" alt="" style="width:55px ;">
         </div>
         <div class="flex justify-center items-center rounded-full w-24 h-24 bg-[#965F9E] mr-12">
-          <img src="../../../../assets/svg/users.svg" alt="" style="width:55px ;">
+          <img src="assets/svg/users.svg" alt="" style="width:55px ;">
         </div>
         <div class="flex justify-center items-center rounded-full w-24 h-24 bg-[#965F9E] mr-12">
-          <img src="../../../../assets/svg/book.svg" alt="" style="width:55px ;">
+          <img src="assets/svg/book.svg" alt="" style="width:55px ;">
         </div>
         <div class="flex justify-center items-center rounded-full w-24 h-24 bg-[#965F9E]">
-          <img src="../../../../assets/svg/lettre.svg" alt="" style="width:55px ;">
+          <img src="assets/svg/lettre.svg" alt="" style="width:55px ;">
         </div>
       </div>
     </div>
     <section>
       <div class="mt-16 text-center px-14 mb-20">
-        <button id="gotop" (click)="goUp()" class="fixed right-[3%] bottom-[5%] flex items-center justify-center w-14 h-14 rounded-full bg-[#509FDE]">
+        <button id="gotop" (click)="goUp()"
+          class="fixed right-[3%] bottom-[5%] flex items-center justify-center w-14 h-14 rounded-full bg-[#509FDE]">
           <img src="assets/svg/up.svg" alt="">
         </button>
         <h1 class="text-[100px] font-baloo font-bold">WATT Success</h1>
@@ -42,16 +43,20 @@
           <span><img class="mr-8" src="assets/svg/datadock.svg" alt=""></span>
         </div>
       </div>
-      <div class="change py-6 pl-4 mx-auto mb-12">
+      <div class="change change-1 py-6 pl-4 mx-auto mb-12">
+        <div class="absolute right-10 -top-[62px]">
+          <img class="" src="assets/svg/CPF.svg" alt="">
+        </div>
         <div class="flex">
           <span class="h-10"><img class="mr-4 -mt-16" src="assets/svg/virgule.svg" alt=""></span>
-          <h1 class="text-[40px] text-white pb-2">BE YOUR CHANGE</h1>
+          <h1 class="text-[40px] text-white pb-2 font-baloo font-bold">BE YOUR CHANGE</h1>
         </div>
-        <p class="text-justify text-white max-w-[732px] ml-28 mr-5 text-lg font-bold pb-8">Des séances de coaching et des ateliers pour vous reconnecter à votre potentiel 
+        <p class="text-justify text-white max-w-[732px] ml-28 mr-5 text-lg font-bold pb-8">Des séances de coaching et
+          des ateliers pour vous reconnecter à votre potentiel
           et découvrir le projet qui vous fait vibrer.
           Un accompagnement conçu par des experts, psychologues du travail et coachs.
           Sur 6 à 8 semaines, éligible au CPF / 100 % finançable.
-          </p>
+        </p>
       </div>
       <div class="flex justify-center items-center mt-2 mb-20">
         <div class="text-center mr-16">
@@ -76,19 +81,147 @@
         </div>
       </div>
 
-      <div class="cards flex justify-center gap-44">
+      <div class="flex justify-center gap-44 mb-14">
         <div class="relative rounded-2xl">
-            <img class="w-full h-auto" src="assets/images/se_faire_accompagner.png" alt="">
-          <!-- <div class="h-[157px] w-full bg-[#509FDE] opacity-90 absolute left-0 bottom-0"></div> -->
+          <img class="w-full h-auto" src="assets/images/se_faire_accompagner.png" alt="">
+          <div class="h-[157px] w-[370px] bg-[#509FDE] opacity-90 absolute left-[10px] bottom-[18px] rounded-b-2xl">
+            <div class="flex items-center justify-center h-full">
+              <button class="uppercase text-4xl text-white text-center">Se faire accompagner</button>
+            </div>
+          </div>
         </div>
         <div class="relative rounded-2xl">
           <img class="w-full h-auto" src="assets/images/devenir_coach.png" alt="">
-        </div>
-       
+          <div class="h-[157px] w-[370px] bg-[#509FDE] opacity-90 absolute left-[10px] bottom-[18px] rounded-b-2xl">
+            <div class="flex items-center justify-center h-full">
+              <button class="uppercase text-4xl text-white text-center">Devenir coach</button>
+            </div>
+          </div>
 
+        </div>
+      </div>
+
+      <div class="flex mt-12 mb-12 ml-28 relative">
+        <h2 class="font-bold text-3xl text-pink-500 whitespace-nowrap absolute left-[13px] bottom-2.5">La formule My Way
+        </h2>
+        <h2 class="font-bold text-3xl whitespace-nowrap invisible">La formule My Way</h2>
+        <div class="w-full">
+          <img src="assets/images/separator.svg" class="w-full">
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center mt-12 mb-32">
+        <img src="assets/images/my-way.png" alt="my-way" class="mr-14 ml-8">
+        <div class="change py-6 pl-4 mb-12 ml-8 mt-10">
+          <div>
+            <h1 class="text-[40px] text-white pb-2 font-baloo font-bold">5 semaines en 3 étapes</h1>
+          </div>
+          <p class="text-justify text-white max-w-[615px] ml-28 mr-5 text-lg font-bold pb-8">Pour construire un projet
+            professionnel solide qui vous ressemble, grâce à l'expertise de nos WATT Coachs.
+            WATT vous propose un accompagnement en ligne qui alterne des exercices de réflexion, d'évaluation et
+            d'introspection grâce à des outils de développement personnel performants et un coaching personnalisé.
+          </p>
+        </div>
+      </div>
+      <!-- cards -->
+      <div class="flex justify-center items-center mt-24 mb-16 h-[361px]">
+        <div class="row w-[1500px] h-[26.35px] bg-[#509FDE] relative">
+          <div class="flex justify-center absolute bottom-[-143px] left-10">
+            <div class="cards mx-28">
+              <img src="assets/images/image_1.png" alt="" class="mb-6">
+              <h3 class="text-3xl font-bold font-baloo text-center mb-3">BE'n Dream</h3>
+              <p class="font-normal text-sm text-center">Un parcours en 5 étapes pour découvrir ce qui vous anime et
+                vous connecter à votre ADN Vocationnel.</p>
+            </div>
+            <div class="cards mx-28">
+              <img src="assets/images/image_2.png" alt="" class="mb-6">
+              <h3 class="text-3xl font-bold font-baloo text-center mb-3">Go'n Believe</h3>
+              <p class="font-normal text-sm text-center">Un parcours en 4 étapes pour trouver le métier de vos rêves en
+                identifiant vos forces et vos talents.</p>
+            </div>
+            <div class="cards mx-28">
+              <img src="assets/images/image_3.png" alt="" class="mb-6">
+              <h3 class="text-3xl font-bold font-baloo text-center mb-3">Go'n Become</h3>
+              <p class="font-normal text-sm text-center">Un parcours en 6 étapes pour vous lancer en toute confiance
+                dans la réalisation de votre projet professionnel ou de formation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-[930px] mx-auto text-center mb-36">
+        <p class="font-medium text-xl">Essayez dès maintenant et gratuitement le module My Way et choisissez votre WATT
+          Coach pour être
+          accompagné efficacement dans votre projet !</p>
+      </div>
+
+      <div class="flex mt-12 mb-12 ml-28 relative">
+        <h2 class="font-bold text-3xl text-pink-500 whitespace-nowrap absolute left-[4px] bottom-[46px]">Ils nous ont
+          fait confiance</h2>
+        <h2 class="font-bold text-3xl whitespace-nowrap invisible">Ils nous ont fait confiance</h2>
+        <div class="w-full">
+          <img src="assets/images/separator_2.svg" class="w-full">
+        </div>
+      </div>
+
+      <div class="flex flex-col justify-center">
+        <div class="flex justify-center items-center">
+          <div class="cards2">
+            <div class="title ">
+              <img src="assets/images/user_1.png" alt="" class="">
+              <div class="text-xl">
+                <h3 class="font-bold font-baloo">Audrey</h3>
+                <h4 class="font-normal">Bilan de compétences</h4>
+              </div>
+            </div>
+            <p class="font-normal text-base text-left">Voilà un an que j'ai fini mon bilan de compétences avec Julie
+              Morin. Je suis actuellement en stage et un contrat derrière dans mon nouveau métier. Sans ce bilan, je
+              serai sûrement encore à mon ancien poste. Merci du fond du cœur.</p>
+          </div>
+          <div class="cards2">
+            <div class="title">
+              <img src="assets/images/user_2.png" alt="" class="">
+              <div class="text-xl">
+                <h3 class="font-bold font-baloo">Jérôme</h3>
+                <h4 class="font-normal">Bilan de compétences</h4>
+              </div>
+            </div>
+            <p class="font-normal text-base text-left">Pour moi ce bilan a été une démarche très enrichissante qui m'a
+              permis de comprendre que je pourrais me positionner sur un autre métier et projet professionnel et qu'un
+              nouveau départ est possible. Aujourd'hui, j'attends le financement pour mettre en œuvre un de mes projets.
+              Merci à vous.</p>
+          </div>
+          <div class="cards2 relative">
+            <div class="title">
+              <img src="assets/images/user_3.png" alt="" class="">
+              <div class="text-xl">
+                <h3 class="font-bold font-baloo">Stéphanie B</h3>
+                <h4 class="font-normal">Bilan de compétences</h4>
+              </div>
+            </div>
+            <p class="font-normal text-base text-left">Je tiens particulièrement à souligner que les qualités
+              professionnelles de Mme Morin m'ont vraiment aidé tout au long de ma démarche.
+              Je la remercie pour toute cette belle expérience.</p>
+              <button class="text-xl font-normal mt-7 absolute right-7 -bottom-12">> Lire plus de témoignages</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex mt-28 mb-12 ml-28 relative">
+        <h2 class="font-bold text-3xl text-pink-500 whitespace-nowrap absolute left-[4px] bottom-[25px]">Nos partenaires
+        </h2>
+        <h2 class="font-bold text-3xl whitespace-nowrap invisible">Nos partenaires</h2>
+        <div class="w-full">
+          <img src="assets/images/separator_3.svg" class="w-full">
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center mb-20">
+        <span><img class="mr-9" src="assets/images/sopas_1.png" alt=""></span>
+        <span><img class="mr-9" src="assets/images/africa_2.png" alt=""></span>
+        <span><img class="mr-9" src="assets/images/HB-3.png" alt=""></span>
+        <span><img class="mr-9" src="assets/images/devup_4.png" alt=""></span>
+        <span><img class="mr-9" src="assets/images/riad-tours_5.png" alt=""></span>
       </div>
     </section>
-    <div class="h-40 m-4 bg-slate-200"></div>
-    <div class="h-40 m-4 bg-slate-200"></div>
   </div>
 </div>
