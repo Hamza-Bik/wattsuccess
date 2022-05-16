@@ -1,0 +1,134 @@
+/* Baloo */
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('Baloo2-Bold.eot');
+    src: url('Baloo2-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Baloo2-Bold.woff2') format('woff2'),
+        url('Baloo2-Bold.woff') format('woff'),
+        url('Baloo2-Bold.ttf') format('truetype'),
+        url('Baloo2-Bold.svg#Baloo2-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Baloo 2';
+    src: url('Baloo2-ExtraBold.eot');
+    src: url('Baloo2-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Baloo2-ExtraBold.woff2') format('woff2'),
+        url('Baloo2-ExtraBold.woff') format('woff'),
+        url('Baloo2-ExtraBold.ttf') format('truetype'),
+        url('Baloo2-ExtraBold.svg#Baloo2-ExtraBold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('Baloo2-Medium.eot');
+    src: url('Baloo2-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Baloo2-Medium.woff2') format('woff2'),
+        url('Baloo2-Medium.woff') format('woff'),
+        url('Baloo2-Medium.ttf') format('truetype'),
+        url('Baloo2-Medium.svg#Baloo2-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('Baloo2-Regular.eot');
+    src: url('Baloo2-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Baloo2-Regular.woff2') format('woff2'),
+        url('Baloo2-Regular.woff') format('woff'),
+        url('Baloo2-Regular.ttf') format('truetype'),
+        url('Baloo2-Regular.svg#Baloo2-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baloo 2';
+    src: url('Baloo2-SemiBold.eot');
+    src: url('Baloo2-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Baloo2-SemiBold.woff2') format('woff2'),
+        url('Baloo2-SemiBold.woff') format('woff'),
+        url('Baloo2-SemiBold.ttf') format('truetype'),
+        url('Baloo2-SemiBold.svg#Baloo2-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Black.eot');
+    src: url('Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Black.woff2') format('woff2'),
+        url('Lato-Black.woff') format('woff'),
+        url('Lato-Black.ttf') format('truetype'),
+        url('Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Bold.eot');
+    src: url('Lato-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Bold.woff2') format('woff2'),
+        url('Lato-Bold.woff') format('woff'),
+        url('Lato-Bold.ttf') format('truetype'),
+        url('Lato-Bold.svg#Lato-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Lato */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Light.eot');
+    src: url('Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Light.woff2') format('woff2'),
+        url('Lato-Light.woff') format('woff'),
+        url('Lato-Light.ttf') format('truetype'),
+        url('Lato-Light.svg#Lato-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato Hairline';
+    src: url('Lato-Hairline.eot');
+    src: url('Lato-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Hairline.woff2') format('woff2'),
+        url('Lato-Hairline.woff') format('woff'),
+        url('Lato-Hairline.ttf') format('truetype'),
+        url('Lato-Hairline.svg#Lato-Hairline') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Regular.eot');
+    src: url('Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Regular.woff2') format('woff2'),
+        url('Lato-Regular.woff') format('woff'),
+        url('Lato-Regular.ttf') format('truetype'),
+        url('Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
