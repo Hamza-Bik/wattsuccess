@@ -11,29 +11,29 @@
     <!-- circles -->
     <div class="icons flex -mt-12">
       <div class="mx-auto flex  z-50">
-        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-fuchsia-700 mr-12">
+        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-[#965F9E] mr-12">
           <img src="assets/svg/icon-log.svg" alt="" style="width:55px ;">
         </div>
-        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-fuchsia-700 mr-12">
+        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-[#965F9E] mr-12">
           <img src="../../../../assets/svg/faculty.svg" alt="" style="width:55px ;">
         </div>
-        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-fuchsia-700 mr-12">
+        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-[#965F9E] mr-12">
           <img src="../../../../assets/svg/users.svg" alt="" style="width:55px ;">
         </div>
-        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-fuchsia-700 mr-12">
+        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-[#965F9E] mr-12">
           <img src="../../../../assets/svg/book.svg" alt="" style="width:55px ;">
         </div>
-        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-fuchsia-700">
+        <div class="flex justify-center items-center rounded-full w-24 h-24 bg-[#965F9E]">
           <img src="../../../../assets/svg/lettre.svg" alt="" style="width:55px ;">
         </div>
       </div>
     </div>
     <section>
       <div class="mt-16 text-center px-14 mb-20">
-        <button class="flex items-center justify-center w-14 h-14 rounded-full bg-[#509FDE] float-right mt-14">
+        <button id="gotop" (click)="goUp()" class="fixed right-[3%] bottom-[5%] flex items-center justify-center w-14 h-14 rounded-full bg-[#509FDE]">
           <img src="assets/svg/up.svg" alt="">
         </button>
-        <h1 class="text-[100px]">WATT Success</h1>
+        <h1 class="text-[100px] font-baloo font-bold">WATT Success</h1>
         <h3 class="text-[30px] mb-2">Votre bilan de compétences certifié en ligne !</h3>
         <h4 class="text-[18px] mb-4">Par le cabinet Groupe ProActiv</h4>
         <div class="flex justify-center items-center">
@@ -65,7 +65,7 @@
           <p class="text-lg">partenaires</p>
         </div>
         <div class="text-center mr-16">
-          <img class="mx-auto" src="assets/svg/user-check.svg" alt="">
+          <img class="ml-12" src="assets/svg/user-check.svg" alt="">
           <span class="text-3xl">2400</span>
           <p class="text-lg">clients accompagnés</p>
         </div>
@@ -77,8 +77,15 @@
       </div>
 
       <div class="cards flex justify-center gap-44">
-        <div class="w-80 h-96 bg-slate-400 rounded-2xl"></div>
-        <div class="w-80 h-96 bg-slate-400 rounded-2xl"></div>
+        <div class="relative rounded-2xl">
+            <img class="w-full h-auto" src="assets/images/se_faire_accompagner.png" alt="">
+          <!-- <div class="h-[157px] w-full bg-[#509FDE] opacity-90 absolute left-0 bottom-0"></div> -->
+        </div>
+        <div class="relative rounded-2xl">
+          <img class="w-full h-auto" src="assets/images/devenir_coach.png" alt="">
+        </div>
+       
+
       </div>
     </section>
     <div class="h-40 m-4 bg-slate-200"></div>
